@@ -1,0 +1,12 @@
+server {
+
+  server_name 
+    .giriraja.org
+  ;
+
+  autoindex on;
+  root /var/www/giriraja.org;
+
+  include conf.d/common.conf;
+
+}
